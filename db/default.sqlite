@@ -1,0 +1,10 @@
+SQLite format 3
+TABLE jokes
+CREATE TABLE IF NOT EXISTS jokes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    question TEXT NOT NULL,
+    answer TEXT NOT NULL
+);
+INSERT INTO "jokes" VALUES(1,'Pourquoi les poules se couchent tôt ?','Pour se lever de bonne heure.');
+INSERT INTO "jokes" VALUES(2,'Quel est le comble pour un jardinier ?','Avoir la main verte... mais les doigts jaunes !');
+INSERT INTO "jokes" VALUES(3,'Quel est le comble pour un cordonnier ?','D''avoir de grosses semelles !');
